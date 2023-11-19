@@ -1,6 +1,6 @@
 # A collection of the "projects" completed in Visual Basic while studying OCR A level Computer Science. 
 
-This is a console based program (Main menu within Launch.vb, with sub menus within each Objective file
+This is a console based program (Main menu within Launch.vb, with sub menus within each Objective file)
 
 Pre compiled ".exe" programs will be published to release tab each week for those who can't compile themselves, and can be run from any windows computer.
 
