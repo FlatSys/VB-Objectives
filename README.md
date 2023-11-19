@@ -1,5 +1,4 @@
-# ConsoleApp2
-A collection of the "projects" completed in Visual Basic while studying OCR A level Computer Science. 
+# A collection of the "projects" completed in Visual Basic while studying OCR A level Computer Science. 
 
 This is a console based program (Main menu within Launch.vb, with sub menus within each Objective file
 
