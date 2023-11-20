@@ -17,7 +17,8 @@ Module Launch
                 Objective2.obj2()
             Case 3
                 Objective3.obj3()
-
+            Case 4
+                Objective4.obj4()
             Case Else
                 Console.ForegroundColor = ConsoleColor.Cyan
                 Console.WriteLine("Invalid choice. Please choose a valid file number from the list.")
@@ -35,7 +36,7 @@ Module Launch
         Console.WriteLine("1. Objective 1 Text Strings ")
         Console.WriteLine("2. Objective 2 Variables")
         Console.WriteLine("3. Objective 3 String Manipulation ")
-        Console.WriteLine("4. Objective4")
+        Console.WriteLine("4. Objective 4 Selection Statements")
         Console.WriteLine()
     End Sub
 
