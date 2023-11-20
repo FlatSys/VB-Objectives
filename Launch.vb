@@ -15,6 +15,8 @@ Module Launch
                 Objective1.obj1()
             Case 2
                 Objective2.obj2()
+            Case 3
+                Objective3.obj3()
 
             Case Else
                 Console.ForegroundColor = ConsoleColor.Cyan
@@ -32,7 +34,7 @@ Module Launch
         Console.WriteLine()
         Console.WriteLine("1. Objective 1 Text Strings ")
         Console.WriteLine("2. Objective 2 Variables")
-        Console.WriteLine("3. Objective3")
+        Console.WriteLine("3. Objective 3 String Manipulation ")
         Console.WriteLine("4. Objective4")
         Console.WriteLine()
     End Sub
