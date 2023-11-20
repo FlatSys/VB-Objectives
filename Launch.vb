@@ -1,7 +1,9 @@
 Imports System
 Imports System.Data
 Imports System.Runtime.InteropServices
-
+'''  Compile from VS terminal 
+'''  (without .NET core) dotnet publish -r win-x64 -p:PublishSingleFile=True --self-contained false --output "C:\abc" VB-Objectives.vbproj
+'''  (with .NET core) dotnet publish -r win-x64 /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true /p:PublishTrimmed=true --output "C:\abc" VB-Objectives.vbproj
 Module Launch
     Sub Main()
 
@@ -19,6 +21,8 @@ Module Launch
                 Objective3.obj3()
             Case 4
                 Objective4.obj4()
+            Case 5
+                Objective5.obj5()
             Case Else
                 Console.ForegroundColor = ConsoleColor.Cyan
                 Console.WriteLine("Invalid choice. Please choose a valid file number from the list.")
@@ -37,6 +41,7 @@ Module Launch
         Console.WriteLine("2. Objective 2 Variables")
         Console.WriteLine("3. Objective 3 String Manipulation ")
         Console.WriteLine("4. Objective 4 Selection Statements")
+        Console.WriteLine("5. Objective 5 Arithmetic Operations and Random Numbers")
         Console.WriteLine()
     End Sub
 
