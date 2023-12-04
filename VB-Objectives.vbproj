@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp2</RootNamespace>
+    <RootNamespace>VBObjectives</RootNamespace>
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
